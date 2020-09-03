@@ -1,7 +1,7 @@
 FROM alpine:3.9 as rootfs-stage
 
 # environment
-ENV REL=bionic
+ENV REL=focal
 ENV ARCH=amd64
 # install packages
 RUN \
